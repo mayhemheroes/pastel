@@ -18,4 +18,4 @@ RUN ${HOME}/.cargo/bin/cargo build --release
 
 # Copy binary into a new image
 FROM ubuntu:20.04
-COPY --from=builder /pastel/target/release/pastel /usr/local/bin/pastel
+COPY --from=builder /pastel /pastel

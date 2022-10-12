@@ -1,4 +1,4 @@
 project: pastel
 target: fuzz
 cmds:
-  - cmd: pastel
+  - cmd: /pastel/target/release/pastel
