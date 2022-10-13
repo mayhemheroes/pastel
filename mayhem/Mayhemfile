@@ -6,6 +6,8 @@ cmds:
   - cmd: /pastel format hex
   - cmd: /pastel format name
   - cmd: /pastel format rgb
+  - cmd: /pastel format hsl
+  - cmd: /pastel format hsv
   - cmd: /pastel lighten 0.5
   - cmd: /pastel mix red
   - cmd: /pastel rotate 90
